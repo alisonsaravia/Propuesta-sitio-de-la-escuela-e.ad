@@ -1,0 +1,60 @@
+/* background slide transition */
+.social ul li a, .socialfooter ul li a{
+	transition:background .3s;
+	-moz-transition:background .3s; /* Firefox 4 */
+	-webkit-transition:background .3s; /* Safari and Chrome */
+	-o-transition:background .3s; /* Opera */
+}
+
+/* font color transition */
+#logo a, #navi ul li a, #navi ul li a:visited{
+	transition:color .3s;
+	-moz-transition:color .3s; /* Firefox 4 */
+	-webkit-transition:color .3s; /* Safari and Chrome */
+	-o-transition:color .3s; /* Opera */
+}
+
+/* text shadow transition */
+#navi ul li a, #navi ul li a:visited{
+	transition:text-shadow .3s;
+	-moz-transition:text-shadow .3s; /* Firefox 4 */
+	-webkit-transition:text-shadow .3s; /* Safari and Chrome */
+	-o-transition:text-shadow .3s; /* Opera */
+}
+
+
+
+/* width */
+#logo, #navi, #conteactinfo, .split2{
+   -webkit-transition: width .3s ease-in;
+   -moz-transition: width .3s ease-in;
+   -o-transition: width .3s ease-in;
+   transition: width .3s ease-in;
+}
+
+/* margins , padding*/
+#logo, .social, #navi, #navi ul, #navi ul li, #navi ul li ul, #conteactinfo, .socialfooter ul{
+   -webkit-transition: margin-left .3s ease-in;
+   -moz-transition: margin-left .3s ease-in;
+   -o-transition: margin-left .3s ease-in;
+   transition: margin-left .3s ease-in;
+   -webkit-transition: margin-right .3s ease-in;
+   -moz-transition: margin-right .3s ease-in;
+   -o-transition: margin-right .3s ease-in;
+   transition: margin-right .3s ease-in;
+   -webkit-transition: padding .3s ease-in;
+   -moz-transition: padding .3s ease-in;
+   -o-transition: padding .3s ease-in;
+   transition: padding .3s ease-in;
+}
+
+
+/* opacity */
+.portfoliowrap, .blogimage, .blogwcommentwrap{
+   -webkit-transition: opacity .3s ease-in;
+   -moz-transition: opacity .3s ease-in;
+   -o-transition: opacity .3s ease-in;
+   transition: opacity .3s ease-in;
+}
+
+}

@@ -1,0 +1,382 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>e[ad]</title>
+
+<meta name="keywords" content="Responsive Html, Responsive Template, Response" />
+ 
+
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+a:link {
+	color: #CC3333;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #CC3333;
+}
+a:hover {
+	text-decoration: none;
+	color: #333333;
+}
+a:active {
+	text-decoration: none;
+	color: #CC3333;
+}
+</style>
+<meta name="apple-mobile-web-app-capable" content="yes" /> 
+<meta name="apple-mobile-web-app-status-bar-style" content="grey" /> 
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;" /> 
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+    
+<script src="js/custom.js"></script>   
+<script>
+	//// Start Simple Sliders ////
+	$(function() {
+		setInterval("rotateDiv()", 10000);
+	});
+		
+		function rotateDiv() {
+		var currentDiv=$("#simpleslider div.current");
+		var nextDiv= currentDiv.next ();
+		if (nextDiv.length ==0)
+			nextDiv=$("#simpleslider div:first");
+		
+		currentDiv.removeClass('current').addClass('previous').fadeOut('2000');
+		nextDiv.fadeIn('3000').addClass('current',function() {
+			currentDiv.fadeOut('2000', function () {currentDiv.removeClass('previous');});
+		});
+	
+	}
+	//// End Simple Sliders //// 
+</script> 
+<script type="text/javascript" charset="utf-8">
+  $(document).ready(function(){
+    $("a[rel^='prettyPhoto']").prettyPhoto();
+  });
+</script>
+</head>
+
+<body>
+<div id="header">
+    	
+        <div id="navigation">
+
+        	<div id="navigation_wrap">
+<div id="conteactinfo">
+
+Iniciar sesión / Registrarse
+
+<br>
+
+</div>
+                <div id="navi">
+                
+                    <ul>
+                    
+                      <li><a href="#">Escuela</a>
+        <ul>
+            <li><a href="#">Historia</a></li>
+            <li><a href="#">Admisión</a></li>
+            <li><a href="#">Campus</a></li>
+            <li><a href="#">Cuerpo académico</a></li>
+            <li><a href="#">Autoridades</a></li>    
+            <li><a href="#">Catolicidad</a></li> 
+            <li><a href="#">Biblioteca</a></li>   
+            <li><a href="#">Prensa</a></li>     
+                  
+           </ul>
+                      <li><a href="#">Carreras</a>
+		<ul>
+			<li><a href="#">Arquitectura</a></li>
+			<li><a href="#">Diseño</a></li>
+		</ul>
+</li>
+                       <li><a href="#">Postgrado</a>
+        <ul>
+            <li><a href="#">Magister náutico y marítimo</a></li>
+            <li><a href="#">Magister ciudad y territorio</a></li>
+        </ul>
+</li>        
+     <li><a href="#">Estudiante</a>
+         <ul>
+             <li><a href="#">Cuerpo Coordinador</a></li>
+             <li><a href="#">Procesos Administrativos</a></li>
+             <li><a href="#">Calendario</a></li>
+             <li><a href="#">Exalumnos</a></li>
+             <li><a href="#">Servicios</a></li>
+             <li><a href="#">Movilidad Estudiantil</a></li>
+             <li><a href="#">Bolsa de Trabajo</a></li>
+             <li><a href="#">Asuntos Estudiantiles</a></li>
+        </ul>
+</li>        
+     <li><a href="#">Amereida</a>
+         <ul>
+             <li><a href="#">Biblioteca Con§tel</a></li>
+             <li><a href="#">Travesías</a></li>
+             <li><a href="#">Taller de Amereida</a></li>
+             <li><a href="#">Ciudad Abierta</a></li>
+         </ul> 
+</li>         
+     <li><a href="#">Mundo</a>
+         <ul>
+             <li><a href="#">Extensión</a></li>
+             <li><a href="#">Investigación</a></li>
+             <li><a href="#">Archivo Histórico José Vial</a></li>
+             <li><a href="#">Ediciones e[ad]</a></li>
+             <li><a href="#">Wiki Casiopea</a></li>
+         </ul>
+</li>         
+      
+           
+</ul>
+                
+              </div>
+               
+                
+		  </div>
+        
+        </div>
+        
+        <div class="clear"></div>
+        
+        <div id="header_small">
+        	            
+           
+          <div id="logo">
+             <h1>e[ad] </h1>
+<h2>Escuela de Arquitectura <br />y Diseño de la PUCV</h2>
+            </div>
+           
+        
+        </div>
+        
+
+</div>
+
+
+<div class="fila borde-punteado margen-buscador blanco">
+			<div class="col-16">
+				<div class="sombra">	
+				<div class="searchbox">
+					<input name="searchbox" id="searchbox" type="text">
+				</div>
+				<div class="searchbtn">
+					<input name="search" value="Buscar" type="button">
+				</div>
+				</div>
+			</div>	
+		</div>
+
+
+
+
+
+
+<div id="main">
+
+    
+    <div id="sliderwrap">
+		
+        
+        <div id="slider" class="nivoSlider">
+            <img src="images/slider-banners/slider01.jpg" alt=""/>
+            <img src="images/slider-banners/slider02.jpg" alt=""/>
+            
+        </div>
+           
+        </div>
+        
+    
+    </div>
+    
+    <div id="main-wrap">
+     <div class="boxes-third">
+        
+       	  <div class="latestthree">
+            
+           	<div class="title">NOTICIAS<span class="titlearrow"></span>
+            </div>
+                <div class="latestthreeimage"><a href="images/latest-projects/larger-images/largeimage.jpg" rel="prettyPhoto" title="Lorem ipsum dolor sit amet"><img src="images/tres.jpg" alt="Lorem ipsum dolor sit amet" width="250" height="186" border="0"/></a>
+                
+                </div>
+                <div class="text">
+               <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt sem justo. Nulla quis dapibus ante. Nullam eget metus velit, vel aliquam lacus. Integer tempor pretium aliquam.</a><br>
+ agosto 21, 2012 
+            </div>
+          
+                <span class="textarrow"></span>
+                        
+          </div>
+        
+      </div>
+        
+        <div class="boxes-third boxes-last">
+        
+       	  <div class="latestthree">
+            
+           	<div class="title">
+                NOTICIAS
+                <span class="titlearrow"></span>
+            </div>
+                <div class="latestthreeimage"><a href="images/latest-projects/larger-images/largeimage.jpg" rel="prettyPhoto" title="Lorem ipsum dolor sit amet"><img src="images/cuatro.jpg" alt="Lorem ipsum dolor sit amet" width="250" height="186" border="0"/></a></div>
+            <div class="text">
+               <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt sem justo. Nulla quis dapibus ante. Nullam eget metus velit, vel aliquam lacus. Integer tempor pretium aliquam.</a><br>
+ agosto 21, 2012 
+            </div>
+            
+          </div>
+        
+        </div>
+        <div class="boxes-third boxes-last">
+        
+       	  <div class="latestthree">
+            
+           	<div class="title">
+               NOTICIAS
+                <span class="titlearrow"></span>
+            </div>
+                <div class="latestthreeimage"><a href="images/latest-projects/larger-images/largeimage.jpg" rel="prettyPhoto" title="Lorem ipsum dolor sit amet"><img src="images/cinco.jpg" alt="Lorem ipsum dolor sit amet" width="305" height="132" border="0"/></a></div>
+            <div class="text">
+               <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt sem justo. Nulla quis dapibus ante. Nullam eget metus velit, vel aliquam lacus. Integer tempor pretium aliquam.</a><br>
+ agosto 21, 2012 
+            </div>
+            
+          </div>
+        
+        </div>
+    	<br><br>
+
+
+
+        <div class="boxes-third">
+        
+       	  <div class="latestthree">
+            
+           	<div class="title">
+                LABORATORIO DE MODELACIÓN ASISTIDA DIGITAL E[AD]                <span class="titlearrow"></span>
+            </div>
+                <div class="latestthreeimage"><a href="images/latest-projects/larger-images/largeimage.jpg" rel="prettyPhoto" title="Lorem ipsum dolor sit amet"><img src="images/uno.jpg" alt="Lorem ipsum dolor sit amet" width="250" height="167" border="0"/></a></div>
+          
+                <span class="textarrow"></span>
+                        
+          </div>
+        
+      </div>
+        
+        <div class="boxes-third boxes-last">
+        
+       	  <div class="latestthree">
+            
+           	<div class="title">
+                OBSERVACIÓN DE LA SEMANA
+                <span class="titlearrow"></span>
+            </div>
+                <div class="latestthreeimage"><a href="images/latest-projects/larger-images/largeimage.jpg" rel="prettyPhoto" title="Lorem ipsum dolor sit amet"><img src="images/dos.jpg" alt="Lorem ipsum dolor sit amet" width="305" height="132" border="0"/></a></div>
+            <div class="text">
+               <a href="#">Un cardo, su presencia y singularidad se ven en el distanciamiento justo de trazado y palabra</a><br>
+ agosto 21, 2012 
+            </div>
+            
+          </div>
+        
+        </div>
+        <div id="latest-testimonial">
+                <div id="testimonialtitle">AGENDA</div>
+                <div id="testimonialbody">
+                	<!-- Starting simple slider -->
+                    <div id="simpleslider">
+                            <!-- Slide 1 -->
+                            <div class="current">
+                                <h6>20/8 “METODOLOGÍA PARA LA EVALUACIÓN SOCIAL DEL PATRIMONIO: EL CASO DE LOS ASCENSORES DE VALPARAÍSO”</h6>
+
+                                <p>en Agenda
+Este lunes 20 de agosto a las 16,00hrs será presentada por primera vez  la “METODOLOGÍA PARA LA EVALUACION SOCIAL DEL PATRIMONIO: EL CASO DE LOS ASCENSORES DE VALPARAISO”. La exposición será dictada por la profesora de nuestra Casa de Estudios, M. Lorena Herrera (Ph.D), autora de esta metodología para evaluación social del patrimonio quien, además, [...]</p>
+                      </div>
+                            <!-- End Slide 1 -->
+                            <!-- Slide 2 -->
+                            <div>
+                              <h6>OFRENDA EN LA FIESTA PATRONAL DE NUESTRA SEÑORA DEL TRÁNSITO DE CORRAL</h6>
+                              <p>en Agenda, Archivo Histórico José Vial Armstrong, Catolicidad, Investigación
+Este miércoles 15 de Agosto, con motivo de la fiesta patronal de la Parroquia y enmarcada en las actividades de la Investigación DI-PUCV 2012 “Nueva Reconstrucción de la Parroquia de Corral”, del poeta y profesor Jaime Reyes, realizaremos la “Ofrenda en la fiesta patronal de Nuestra Señora del Tránsito de Corral”.</p>
+                            </div>
+                            <!-- End Slide 2 -->
+                            <!-- Slide 3 -->
+                      <div>
+                              <h6>“NARRADORES DE JAVÉ” EN 3° SESIÓN DE CINE</h6>
+                              <p>en Agenda, Estudiantes
+Se invita a la comunidad e[ad] a la tercera sesión de Cine a realizarse este Martes 7 a a las 18:00hrs en la sala de profesores. Está vez se proyectará la película brasileña “Narradores de Javé”, de Eliane Caffé. http://www.youtube.com/watch?v=GlaFRraqeOg La exposición contará  con un simple ágape para acompañar la conversación.</p>
+                      </div>
+                            <!-- End Slide 3 -->
+                            
+                  </div>
+                    <!-- Ending simple slider -->
+                	<div class="speachlower"></div>
+                </div>
+      </div>
+      <!-- End Latest 3 Projects -->
+    
+  </div>
+    <!-- End Main Body Wrap -->
+
+</div>
+<!-- Start Footer -->
+<div id="footer">
+	<!-- Start Footer Top -->
+	<div id="footertop">
+    
+    	<div class="footerwrap">
+    		
+    		<!-- Start Useful Links -->
+             <div id="useful_links">
+                <div id="usefultitle">INFORMACIÓN DE DOCENCIA</div>
+                <div id="usefulbody">
+                  <ul>
+                    <li><a href="#" >Lorem ipsum dolor sit amet
+                      </a><br>
+                      </li>
+                    <li><a href="#">Lorem ipsum dolor sit amet</a><br>
+                    </li>
+                    <li><a href="#">Lorem ipsum dolor sit amet</a><br>
+                    </li>
+                    <li><a href="#">Entradas anteriores<br></a></li>
+                  </ul>
+                </div>
+            </div>            
+            
+            <div id="useful_links">
+                <div id="usefultitle">TALLER DE AMEREIDA</div>
+                <div id="usefulbody">
+                  <ul>
+                    <li><a href="#">Entrega Taller de Amereida Trimestre II 2012</a><br>
+                    </li>
+                    <li><a href="#">Clase 7 Trimestre I 2012</a><br>
+                    </li>
+                    <li><a href="#">Clase 6 Trimestre I 2012</a></li>
+                    <li><a href="#">Entradas anteriores<br></a></li>
+                   </ul>
+                  
+                </div>
+                     
+                
+                
+            </div>
+            
+            
+    		
+    	</div>
+    
+	</div>
+	
+    <div class="clear"></div>
+   
+</div>
+
+<div id="scrolltab"></div>
+
+</body>
+</html>
